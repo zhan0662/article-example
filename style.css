@@ -1,0 +1,67 @@
+body{
+    background-color: coral;
+    scroll-behavior: smooth;
+
+}
+
+.menu{
+    display: none;
+    background-color: rgb(142, 228, 175);
+    margin-top: -50px;
+    width: 150px;
+    
+}
+
+.active{
+    display: block;
+}
+
+.line{
+    margin-top: -11px;
+    font-weight:bolder;
+     
+}
+button{
+    background-color:aquamarine;
+    height: 35px;
+}
+
+li{
+     list-style: none;
+     margin-bottom: 30px;
+}
+
+.scrolling-box {
+    
+    display: block;
+   height: 500px;
+    scroll-behavior: smooth;
+    text-align: center;
+    width: auto;
+  }
+
+  .scrolling-box {
+    background-color: #c694e4;
+    display: block;
+    height: 500px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-align: center;
+
+    
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  article{
+      margin-bottom: 300px;
+      margin-left: 10%;
+      margin-right: 10%;
+      justify-content: center;
+  }
+ 
