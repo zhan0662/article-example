@@ -1,4 +1,4 @@
-body{
+html{
     background-color: coral;
     scroll-behavior: smooth;
 
@@ -6,9 +6,9 @@ body{
 
 .menu{
     display: none;
-    background-color: rgb(142, 228, 175);
+    background-color: rgb(176, 230, 197);
     margin-top: -50px;
-    width: 150px;
+    width: 200px;
     
 }
 
@@ -31,32 +31,7 @@ li{
      margin-bottom: 30px;
 }
 
-.scrolling-box {
-    
-    display: block;
-   height: 500px;
-    scroll-behavior: smooth;
-    text-align: center;
-    width: auto;
-  }
 
-  .scrolling-box {
-    background-color: #c694e4;
-    display: block;
-    height: 500px;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    text-align: center;
-
-    
-  }
-  
-  section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
 
   article{
       margin-bottom: 300px;
@@ -65,3 +40,16 @@ li{
       justify-content: center;
   }
  
+  .fade-in-section {
+    opacity: 0;
+    /* transform: translateY(20vh); */
+    display: hidden;
+    transition: opacity 1s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+  
